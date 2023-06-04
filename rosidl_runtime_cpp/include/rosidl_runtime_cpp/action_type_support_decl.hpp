@@ -27,7 +27,7 @@ namespace rosidl_runtime_cpp
  * \return Function handler for the action's typesupport.
  */
 template<typename T>
-const rosidl_action_type_support_t * get_action_type_support_handle();
+const rosidl_action_type_support_t * get_action_type_support_handle(void);
 
 }  // namespace rosidl_runtime_cpp
 
